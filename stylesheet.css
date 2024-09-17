@@ -1,0 +1,14 @@
+body {
+    background-color: #f8f9fa;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.countdown-container {
+    text-align: center;
+}
+.time {
+    font-size: 3rem;
+    font-weight: bold;
+}
