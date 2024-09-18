@@ -13,7 +13,7 @@ function countdown() {
     `;
 
     if (distance < 0) {
-        document.getElementById("countdown").innerHTML = "The countdown has ended!";
+        document.getElementById("countdown").innerHTML = "Wat nu?";
     }
 }
 
