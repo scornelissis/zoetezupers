@@ -13,7 +13,7 @@ function countdown() {
     `;
 
     if (distance < 0) {
-        document.getElementById("countdown").innerHTML = "Wat nu?";
+        document.getElementById("countdown").innerHTML = "Laat het weekend beginnen";
     }
 }
 

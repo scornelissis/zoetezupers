@@ -1,14 +1,76 @@
 body {
-    background-color: #f8f9fa;
+    background-color: #e6e6e3;
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100vh;
+    margin-left:0;
+    margin-right:0;
+    margin-top: 0;
+    margin-bottom:0;
 }
 .countdown-container {
     text-align: center;
+    color: #a3a09e;
 }
 .time {
     font-size: 3rem;
     font-weight: bold;
+}
+.background{
+    background-image:url("images/Icons/pages/IMG-20241003-WA0000.jpg");
+    background-position: center;
+    background-size: 100%;
+    width: 100%;
+    height: 100vh;
+}
+.logo{
+    height: 10rem;
+    width: 10rem;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    align-content: center;
+    margin-top: 2rem;
+}
+main h1{
+    font-size: 5.5rem;
+    margin-left: auto;
+    margin-right: auto;
+    font-weight: lighter;
+}
+main h2{
+    font-size: 3rem;
+}
+header{
+    font-family: "Brush Script MT";
+}
+header h2{
+    color: orange;
+    font-size: 3.5rem;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    padding-bottom: 2rem;
+}
+.title{
+    font-family: "Brush Script MT";
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    color:#b8b4ac;
+    background-color: #524b46;
+    width:90%;
+    padding-bottom:0.025rem;
+    padding-top: 0.025rem;
+}
+.subtitle{
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    color: #524b46;
+    background-color: #b8b4ac;
+    width: 60%;
+    padding-top: 0.15rem;
+    padding-bottom: 0.15rem;
 }
