@@ -23,6 +23,7 @@ body {
     background-size: 100%;
     width: 100%;
     height: 100vh;
+    background-repeat: no-repeat;
 }
 .logo{
     height: 10rem;
@@ -74,6 +75,79 @@ header h2{
     padding-top: 0.15rem;
     padding-bottom: 0.15rem;
 }
+.praktisch-h2{
+    margin-top:10rem;
+    margin-left: 4rem;
+    font-family: "Brush Script MT";
+    font-size: 4rem;
+    font-weight: 200;
+    letter-spacing: 0.15rem;
+    color: #a32b2b;
+
+}
+.praktische-informatie{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    margin-top: 5rem;
+    justify-content: space-evenly;
+}
+
+.praktische-informatie h2{
+    text-decoration: underline;
+    text-decoration-color: #fb6b6c;
+    text-underline-offset: 2rem;
+    text-decoration-thickness: 0.25rem;
+    font-size: 1.75rem;
+    font-weight: lighter;
+    font-style: italic;
+    margin-bottom: 1.75rem;
+
+}
+.praktische-informatie p{
+    margin-left: auto;
+    margin-right: auto;
+}
+.map h2{
+    margin-top: 0.75rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+.open h2{
+    margin-top: 2.3rem;
+}
+
+.praktische-informatie p{
+    font-weight: bold;
+    font-size: 1.25rem;
+    margin-top: 3rem;
+}
+.eerste-woord{
+    margin-left: 4rem;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    margin-top: 5rem;
+    justify-content: space-evenly;
+    margin-right: 4rem;
+}
+.eerste-woord h2{
+    font-family: "Brush Script MT";
+    font-size: 4rem;
+    font-weight: 200;
+    letter-spacing: 0.15rem;
+    color: #a32b2b;
+
+}
+
+.eerste-woord p, .eerste-woord li{
+    font-size: 1.2rem;
+    margin-bottom: 0.5rem;
+    
+}
+footer{
+    margin-top: 1rem;
+}
 @media only screen and (max-width: 768px) {
     .background{
         background-image:url("images/Icons/pages/IMG-20241003-WA0000\ -\ Copy.jpg");
@@ -81,6 +155,13 @@ header h2{
         background-size: 100%;
         width: 100%;
         height: 100vh;
+        background-repeat: no-repeat;
+    }
+    .praktische-informatie{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
     }
     
     
