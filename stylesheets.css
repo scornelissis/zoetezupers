@@ -151,7 +151,7 @@ footer{
 }
 @media only screen and (max-width: 768px) {
     .background{
-        background-image:url("images/Icons/pages/IMG-20241003-WA0000\ -\ Copy.jpg");
+        background-image:url("images/Icons/pages/mobile.jpg");
         background-position: center;
         background-size: 100%;
         width: 100%;
