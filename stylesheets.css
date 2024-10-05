@@ -165,6 +165,10 @@ footer{
     }
     .praktisch-h2{
         margin-left: 4rem;
+        font-size: 3.5rem;
+    }
+    .eerste-woord h2{
+        font-size: 3.5rem;
     }
 
     .flex{
