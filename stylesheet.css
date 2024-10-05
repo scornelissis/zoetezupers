@@ -165,6 +165,8 @@ footer{
     }
     .praktisch-h2{
         font-size: 3rem;
+        margin-left: auto;
+        margin-right: auto;
     }
     .eerste-woord h2{
         font-size: 3rem;
