@@ -149,7 +149,7 @@ header h2{
 footer{
     margin-top: 1rem;
 }
-@media (max-width: 822px) {
+@media only screen and (min-device-width: 480px){
     .background{
         background-image:url("images/Icons/pages/mobile.jpg");
         background-position: center;
