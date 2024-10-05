@@ -78,6 +78,7 @@ header h2{
 .praktisch-h2{
     margin-top:10rem;
     margin-left: 4rem;
+    margin-right: 4rem;
     font-family: "Brush Script MT";
     font-size: 4rem;
     font-weight: 200;
@@ -163,15 +164,6 @@ footer{
         flex-wrap: wrap;
         justify-content: space-evenly;
     }
-    .praktisch-h2{
-        font-size: 3rem;
-        margin-left: auto;
-        margin-right: auto;
-    }
-    .eerste-woord h2{
-        font-size: 3rem;
-    }
-
     .flex{
         display: flex;
         flex-direction: column;
