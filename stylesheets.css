@@ -163,6 +163,17 @@ footer{
         flex-wrap: wrap;
         justify-content: space-evenly;
     }
+    .praktisch-h2{
+        margin-left: 4rem;
+    }
+
+    .flex{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        justify-content: space-evenly;
+
+    }
     
     
 } 
