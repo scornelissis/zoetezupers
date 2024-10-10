@@ -150,6 +150,14 @@ footer{
     margin-top: 1rem;
 }
 @media (max-width: 768px){
+    .title{
+        font-size: 2rem;
+
+    }
+    .subtitle{
+        font-size: 1.75rem;
+
+    }
     .background{
         background-image:url("images/Icons/pages/mobile.jpg");
         background-position: center;
