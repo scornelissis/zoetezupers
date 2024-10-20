@@ -13,6 +13,25 @@
 <body>
     <div class ="background">
         <header>
+            <nav>
+                <div class="burger" id="burger">
+                    &#9776;
+                  </div>
+                <ul class="nav-links" id="nav-links">
+                    <li><a href="#">Baggagelijst</a></li>
+                    <li><a href="#">Routebeschrijving</a></li>
+                    <li><a href="#">Dagprogramma</a>
+                        <ul>
+                            <li><a href="#">Dag 1</a></li>
+                            <li><a href="#">Dag 2</a></li>
+                            <li><a href="#">Dag 3</a></li>
+                            <li><a href="#">Dag 4</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">Eerstejaars</a></li>
+                    
+                </ul>
+            </nav>
             <div class="logo">
                     <img src="images/Icons/kleurtransparent.png" alt="DeZoeteZupers Logo" title = "Veni Vidi Velcro">
             </div>
@@ -105,14 +124,14 @@
             </section>
         </main>
         <footer>
-
+            <p>Auteur: Simon Cornelissis</p>
         </footer>
     </div>
     <script src="clock.js"></script>
+    <script src="burger.js"></script>
     <script type="text/javascript">
         var elm=document.getElementsByTagName("html")[0];
         elm.style.display="none";
         document.addEventListener("DOMContentLoaded",function(event) {elm.style.display="block"; });
         </script>
-</body>
 </html>
