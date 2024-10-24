@@ -207,7 +207,26 @@ nav ul {
   nav ul li ul li a {
     color: white;
   }
-  
+
+
+.baggagelijst{
+    margin-top: 10rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+.baggage{
+    display: block;
+    border: 0.125rem solid black;
+
+}
+.baggage tr, .baggage th, .baggage td{
+    border: 0.125rem solid black;
+}
+
+.cantus{
+    margin-top: 10rem;
+
+}
   @media (max-width: 768px) {
     nav .burger {
       display: block; /* Show burger on small screens */
