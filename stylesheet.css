@@ -228,6 +228,25 @@ nav ul {
     margin-top: 10rem;
 
 }
+.codex{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    flex-grow: 1 1 auto;
+    align-items: center;
+}
+object {
+    margin-top: 5rem;
+    width: 60%;
+    height: 100vh;
+}
+
+iframe {
+    margin-top: 5rem;
+    margin-bottom: 2rem;
+    width: 90%;
+    height: 80vh;
+}
   @media (max-width: 768px) {
     nav .burger {
       display: block; /* Show burger on small screens */
