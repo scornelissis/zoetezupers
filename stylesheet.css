@@ -254,6 +254,11 @@ iframe {
 .dag-1 ul, .dag-2 ul, .dag-3 ul, .dag-4 ul{
     margin-top: 5rem;
 }
+
+.adres{
+    margin-top: 10rem;
+    margin-left: 2rem;
+}
   @media (max-width: 768px) {
     nav .burger {
       display: block; /* Show burger on small screens */
